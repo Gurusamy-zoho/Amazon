@@ -1,45 +1,4 @@
 
-// let list = document.getElementById("List");
-
-
-// document.getElementById("btn"),addEventListener("click",()=>{
-
-// var xhr = new XMLHttpRequest();
-// var url = "https://real-time-amazon-data.p.rapidapi.com/search?query=Laptop&page=1&country=US";
-
-// xhr.open("GET", url, true);
-// xhr.setRequestHeader("x-rapidapi-host", "real-time-amazon-data.p.rapidapi.com");
-// xhr.setRequestHeader("x-rapidapi-key", "898cb61ab5msh55f7f7e7583c532p19334fjsn1aa1f15e42a8");
-
-// xhr.onreadystatechange = function () {
-//     if (xhr.readyState === 4) {
-//         if (xhr.status === 200) {
-//            let response = JSON.parse(xhr.responseText);
-//            let products = response.data.products;
-
-//            for(let responseData = 0;responseData<=products.length;responseData++){
-//             let product_title = products[responseData].product_title;
-//             let product_price = products[responseData].product_price;
-//             let currency = products[responseData].currency;
-//             let product_star_rating = products[responseData].product_star_rating;
-//             let product_num_ratings = products[responseData].product_num_ratings;
-//             let product_url = products[responseData].product_title;
-//             let product_photo = products[responseData].product_photo;
-//             let delivery = products[responseData].product_photo;
-//             let coupon_text = products[responseData]. coupon_text;
-            
-            
-//            }
-//         } else {
-//             console.error("Error: " + xhr.status, xhr.statusText);
-//         }
-//     }
-// };
-
-// xhr.send();
-
-// })
-
 
 // let product_name = document.getElementById("product_name").value;
 // let product_country_name = document.getElementById("product_country_name").value;
