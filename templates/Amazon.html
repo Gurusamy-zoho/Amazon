@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flask Template Example</title>
     <link rel="stylesheet" href="static/css/Amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
     <div id="MainDiv">
-    <div id="SearchBox">
-    <label id="productLabel">Product</label>
-    <input type ="text" placeholder = "Enter product name" id="product_name" maxlength="55">
-    <span class="error"></span>
-    <button id="btn">Show products</button>
-    </div>
+       <div class="Navbar">
+           <div>
+              <img src="static/img/Amazenlogo.png" class="CompanyLogo">
+           </div>
+           <div id="SearchBox">
+               <input type ="text" placeholder = "Enter product name" id="product_name" maxlength="55">
+               <button id="btn">show product</button>
+           </div>
+            <div class="Logout-icon">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Contact</a>
+                <a><i class="fa-solid fa-right-from-bracket"></i>Logout<a>
+            </div>
+       </div>
     <div class="Filter-Result">
     <div id="SubDiv">
         <br>
@@ -62,7 +74,7 @@
     <div id="List">
 
     </div>
-</div>  
+</div> 
     </div>
 <script src="static/js/Amazon.js"></script>
 </body>
